@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Anyone can read words
+    match /words/{wordId} {
+      allow read: if true;
+      allow write: if wordId == '_init'; // Allow initialization document
+    }
+    
+    // Leaderboard rules - updated structure
+    match /leaderboards/{mode} {
+      allow read: if true;
+      allow write: if mode == '_init'; // Allow initialization document
+      
+      match /entries/{entryId} {
+        allow read: if true; // Anyone can read leaderboards
+        allow write: if request.auth != null && 
+                     request.auth.token.firebase.sign_in_provider != 'anonymous'; // Only authenticated users can write
+      }
+    }
+    
+    // Users collection - allow username uniqueness checking
+    match /users/{userId} {
+      // Allow reading for username uniqueness check
+      allow read: if request.auth != null && request.auth.uid == userId ||
+                  // Allow reading for username uniqueness check during signup/login
+                  (request.auth == null);
+      
+      allow create: if request.auth != null && 
+                    request.auth.uid == userId &&
+                    request.auth.token.firebase.sign_in_provider != 'anonymous' &&
+                    // Ensure username is unique (this is a basic check, full uniqueness is enforced in the app)
+                    request.resource.data.username is string &&
+                    request.resource.data.email is string;
+      allow update: if request.auth != null && 
+                    request.auth.uid == userId &&
+                    request.auth.token.firebase.sign_in_provider != 'anonymous';
+    }
+    
+    // Users can read/write their own profile
+    match /userProfiles/{userId} {
+      allow read, write: if userId == '_init' || 
+                         (request.auth != null && request.auth.uid == userId);
+    }
+    
+    // Anyone can read daily games
+    match /dailyGames/{date} {
+      allow read: if true;
+      allow write: if date == '_init'; // Allow initialization document
+    }
+  }
+} 

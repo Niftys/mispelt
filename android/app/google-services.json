@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215558347573",
+    "project_id": "spelling-game-ae62e",
+    "storage_bucket": "spelling-game-ae62e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215558347573:android:89066790d3a5349cb58a7c",
+        "android_client_info": {
+          "package_name": "com.example.spelling_game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp-OhnP5_rojgZqxhp421j1dXn6sCR47c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

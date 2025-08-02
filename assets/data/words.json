@@ -1,0 +1,184 @@
+{
+  "words": [
+    {
+      "correctSpelling": "accommodate",
+      "misspellings": ["accomodate", "accomadate", "accomodate"],
+      "difficulty": 4,
+      "definition": "To provide lodging or space for someone or something"
+    },
+    {
+      "correctSpelling": "separate",
+      "misspellings": ["seperate", "seperat", "seperete"],
+      "difficulty": 3,
+      "definition": "To divide or keep apart"
+    },
+    {
+      "correctSpelling": "definitely",
+      "misspellings": ["definately", "definatly", "definately"],
+      "difficulty": 4,
+      "definition": "Without doubt or uncertainty"
+    },
+    {
+      "correctSpelling": "occurrence",
+      "misspellings": ["occurence", "occurance", "occurence"],
+      "difficulty": 4,
+      "definition": "An event or incident that happens"
+    },
+    {
+      "correctSpelling": "embarrass",
+      "misspellings": ["embarass", "embarras", "embarass"],
+      "difficulty": 3,
+      "definition": "To cause someone to feel self-conscious or ashamed"
+    },
+    {
+      "correctSpelling": "calendar",
+      "misspellings": ["calender", "calandar", "calender"],
+      "difficulty": 3,
+      "definition": "A system for organizing days and months"
+    },
+    {
+      "correctSpelling": "privilege",
+      "misspellings": ["priviledge", "privilage", "priviledge"],
+      "difficulty": 4,
+      "definition": "A special right or advantage"
+    },
+    {
+      "correctSpelling": "maintenance",
+      "misspellings": ["maintainance", "maintenence", "maintainance"],
+      "difficulty": 4,
+      "definition": "The process of keeping something in good condition"
+    },
+    {
+      "correctSpelling": "recommend",
+      "misspellings": ["reccomend", "recomend", "reccomend"],
+      "difficulty": 3,
+      "definition": "To suggest or advise something"
+    },
+    {
+      "correctSpelling": "successful",
+      "misspellings": ["sucessful", "successfull", "sucessful"],
+      "difficulty": 3,
+      "definition": "Achieving desired results or goals"
+    },
+    {
+      "correctSpelling": "beautiful",
+      "misspellings": ["beutiful", "beautifull", "beutiful"],
+      "difficulty": 2,
+      "definition": "Pleasing to look at or experience"
+    },
+    {
+      "correctSpelling": "necessary",
+      "misspellings": ["neccessary", "necesary", "neccessary"],
+      "difficulty": 3,
+      "definition": "Required or essential"
+    },
+    {
+      "correctSpelling": "environment",
+      "misspellings": ["enviroment", "enviroment", "enviroment"],
+      "difficulty": 4,
+      "definition": "The natural world and surroundings"
+    },
+    {
+      "correctSpelling": "knowledge",
+      "misspellings": ["knowlege", "knowledg", "knowlege"],
+      "difficulty": 3,
+      "definition": "Facts, information, and skills acquired"
+    },
+    {
+      "correctSpelling": "experience",
+      "misspellings": ["experiance", "experence", "experiance"],
+      "difficulty": 3,
+      "definition": "Practical contact with and observation of facts"
+    },
+    {
+      "correctSpelling": "opportunity",
+      "misspellings": ["oppurtunity", "oppertunity", "oppurtunity"],
+      "difficulty": 4,
+      "definition": "A favorable time or situation"
+    },
+    {
+      "correctSpelling": "responsibility",
+      "misspellings": ["responsability", "responsiblity", "responsability"],
+      "difficulty": 4,
+      "definition": "A duty or obligation"
+    },
+    {
+      "correctSpelling": "communication",
+      "misspellings": ["comunication", "communicaton", "comunication"],
+      "difficulty": 4,
+      "definition": "The exchange of information or ideas"
+    },
+    {
+      "correctSpelling": "technology",
+      "misspellings": ["techology", "technolgy", "techology"],
+      "difficulty": 3,
+      "definition": "The application of scientific knowledge"
+    },
+    {
+      "correctSpelling": "government",
+      "misspellings": ["goverment", "goverment", "goverment"],
+      "difficulty": 3,
+      "definition": "The system that controls a country"
+    },
+    {
+      "correctSpelling": "different",
+      "misspellings": ["diferent", "diffrent", "diferent"],
+      "difficulty": 2,
+      "definition": "Not the same as another"
+    },
+    {
+      "correctSpelling": "important",
+      "misspellings": ["importent", "importent", "importent"],
+      "difficulty": 2,
+      "definition": "Having great significance or value"
+    },
+    {
+      "correctSpelling": "interesting",
+      "misspellings": ["intresting", "intresting", "intresting"],
+      "difficulty": 3,
+      "definition": "Arousing curiosity or attention"
+    },
+    {
+      "correctSpelling": "difficult",
+      "misspellings": ["difficult", "difficult", "difficult"],
+      "difficulty": 2,
+      "definition": "Hard to do or understand"
+    },
+    {
+      "correctSpelling": "possible",
+      "misspellings": ["posible", "posible", "posible"],
+      "difficulty": 2,
+      "definition": "Able to be done or achieved"
+    },
+    {
+      "correctSpelling": "personal",
+      "misspellings": ["personel", "personel", "personel"],
+      "difficulty": 2,
+      "definition": "Relating to a particular person"
+    },
+    {
+      "correctSpelling": "business",
+      "misspellings": ["buisness", "buisness", "buisness"],
+      "difficulty": 2,
+      "definition": "Commercial activity or organization"
+    },
+    {
+      "correctSpelling": "education",
+      "misspellings": ["eduction", "eduction", "eduction"],
+      "difficulty": 3,
+      "definition": "The process of teaching and learning"
+    },
+    {
+      "correctSpelling": "information",
+      "misspellings": ["infromation", "infromation", "infromation"],
+      "difficulty": 3,
+      "definition": "Facts or details about something"
+    },
+    {
+      "correctSpelling": "development",
+      "misspellings": ["developement", "developement", "developement"],
+      "difficulty": 4,
+      "definition": "The process of growth or progress"
+    }
+  ]
+} 
