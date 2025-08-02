@@ -2,9 +2,9 @@
 
 A Flutter-based spelling game with multiple engaging game modes, designed for web, Android, and iOS platforms.
 
-## ✨ Features
+## Features
 
-### 🎮 Game Modes
+### Game Modes
 
 1. **Daily Challenge**
    - 10 words per day, same for everyone
