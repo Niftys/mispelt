@@ -14,7 +14,6 @@ A Flutter-based spelling game with multiple engaging game modes, designed for we
 
 2. **Time Attack**
    - 60 seconds to get as many words right as possible
-   - One mistake ends the game
    - Fast-paced, adrenaline-pumping gameplay
 
 3. **Endless Survival**
@@ -40,16 +39,15 @@ A Flutter-based spelling game with multiple engaging game modes, designed for we
   - Highlight 2: #7B5B3A
   - Secondary: #E4CDAF
 - **Mobile-First**: Optimized for mobile with responsive design
-- **Card-Based UI**: Flash card inspired elements with smooth animations
+- **Card-Based UI**: Flash card inspired elements with smooth animations and swipe interaction
 - **Clean Typography**: Easy-to-read fonts with proper contrast
 
 ### Features
 
-- **Word Database**: Curated list of commonly misspelled words
+- **Word Database**: Curated list of commonly misspelled words with Python and Free Dictionary API
 - **Difficulty Levels**: Words ranked 1-5 for future challenge modes
 - **Daily Streaks**: Track consecutive days of playing
 - **Detailed Results**: See all words played with correct/incorrect answers
-- **Offline Support**: Play without internet connection
 - **Cross-Platform**: Works on web, Android, and iOS
 
 ## Getting Started
@@ -65,8 +63,8 @@ A Flutter-based spelling game with multiple engaging game modes, designed for we
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/spelling_game.git
-cd spelling_game
+git clone https://github.com/Niftys/mispelt.git
+cd mispelt
 ```
 
 2. Install dependencies:
@@ -132,39 +130,6 @@ lib/
 - **shared_preferences**: Local data storage
 - **intl**: Date and number formatting
 
-## Future Enhancements
-
-### Planned Features
-
-1. **Firebase Integration**
-   - User authentication
-   - Leaderboards
-   - Cloud word database
-   - User profiles
-
-2. **Additional Game Modes**
-   - Challenge Mode (harder words)
-   - Easy Mode (beginner-friendly)
-   - Multiplayer mode
-
-3. **Enhanced Features**
-   - Custom word lists
-   - Achievement system
-   - Daily notifications
-   - Social sharing
-
-4. **Accessibility**
-   - High contrast mode
-   - Screen reader support
-   - Haptic feedback options
-
-### Technical Improvements
-
-- **Performance**: Optimize animations and rendering
-- **Testing**: Add unit and widget tests
-- **CI/CD**: Automated testing and deployment
-- **Analytics**: User behavior tracking
-
 ## Contributing
 
 1. Fork the repository
@@ -173,15 +138,11 @@ lib/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Flutter team for the amazing framework
 - Material Design for the design system
-- The spelling game community for inspiration
+- The daily game community for inspiration
 
 ---
 
