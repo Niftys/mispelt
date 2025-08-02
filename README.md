@@ -1,4 +1,4 @@
-# 🎯 Mispelt - A Fun Spelling Game
+# Mispelt - A Spelling Game
 
 A Flutter-based spelling game with multiple engaging game modes, designed for web, Android, and iOS platforms.
 
@@ -6,51 +6,51 @@ A Flutter-based spelling game with multiple engaging game modes, designed for we
 
 ### 🎮 Game Modes
 
-1. **📅 Daily Challenge**
+1. **Daily Challenge**
    - 10 words per day, same for everyone
    - Play once per day
    - Track your daily streak
    - Leaderboard based on score and time
 
-2. **⏱️ Time Attack**
+2. **Time Attack**
    - 60 seconds to get as many words right as possible
    - One mistake ends the game
    - Fast-paced, adrenaline-pumping gameplay
 
-3. **♾️ Endless Survival**
+3. **Endless Survival**
    - How far can you go?
    - Choose between 1 life (sudden death) or 3 lives
    - Endless word supply
    - Test your spelling endurance
 
-### 🎯 Gameplay
+### Gameplay
 
-- **👆 Swipe Controls**: Swipe left for incorrect, swipe right for correct
-- **🔘 Button Controls**: Tap buttons for those who prefer traditional controls
-- **✨ Visual Feedback**: Cards shake for wrong answers, glow for correct ones
-- **🔊 Audio Feedback**: Sound effects for correct/incorrect answers (optional)
-- **📊 Progress Tracking**: Real-time score, lives, and timer display
+- **Swipe Controls**: Swipe left for incorrect, swipe right for correct
+- **Button Controls**: Tap buttons for those who prefer traditional controls
+- **Visual Feedback**: Cards shake for wrong answers, glow for correct ones
+- **Audio Feedback**: Sound effects for correct/incorrect answers (optional)
+- **Progress Tracking**: Real-time score, lives, and timer display
 
-### 🎨 Design
+### Design
 
-- **🎨 Color Scheme**: Dictionary-inspired with a playful touch
+- **Color Scheme**: Dictionary-inspired with a playful touch
   - Text: #1F1F1F
   - Primary: #D6C6A8
   - Highlight 1: #A45A3D
   - Highlight 2: #7B5B3A
   - Secondary: #E4CDAF
-- **📱 Mobile-First**: Optimized for mobile with responsive design
-- **🃏 Card-Based UI**: Flash card inspired elements with smooth animations
-- **📝 Clean Typography**: Easy-to-read fonts with proper contrast
+- **Mobile-First**: Optimized for mobile with responsive design
+- **Card-Based UI**: Flash card inspired elements with smooth animations
+- **Clean Typography**: Easy-to-read fonts with proper contrast
 
-### ✨ Features
+### Features
 
-- **📚 Word Database**: Curated list of commonly misspelled words
-- **📈 Difficulty Levels**: Words ranked 1-5 for future challenge modes
-- **🔥 Daily Streaks**: Track consecutive days of playing
-- **📋 Detailed Results**: See all words played with correct/incorrect answers
-- **📴 Offline Support**: Play without internet connection
-- **🌐 Cross-Platform**: Works on web, Android, and iOS
+- **Word Database**: Curated list of commonly misspelled words
+- **Difficulty Levels**: Words ranked 1-5 for future challenge modes
+- **Daily Streaks**: Track consecutive days of playing
+- **Detailed Results**: See all words played with correct/incorrect answers
+- **Offline Support**: Play without internet connection
+- **Cross-Platform**: Works on web, Android, and iOS
 
 ## Getting Started
 
